@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(49, 36, 147);
+
+}
+
+.rock,
+.paper,
+.scissors {
+    margin-top: 17px;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*img {
+    margin-left: 100px;
+}
+*/
+.outcome {
+    color: white;
+    display: block;
+
+}
